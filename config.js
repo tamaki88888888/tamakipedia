@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'Ko Tamaki',
     photo: '/photo.jpg',
-    bio: 'フロントエンドエンジニア、Javascriptと椎名林檎と絢香が好きです。',
+    bio: 'Javascriptと椎名林檎と絢香が好きです。<br>フロントエンジニア',
     contacts: {
       email: '',
       facebook: 'https://www.facebook.com/profile.php?id=100007218916422',
