@@ -121,7 +121,8 @@ https://qiita.com/ryo2132/items/2a29dd7b1627af064d7b
 
 `npm config delete prefix`  
  - ここでいうprefixとはnpmのグローバルパッケージのありかを教えてくれるパスのことです。`npm config list`でグローバルパッケージのインストール情報を確認してみましょう。 
- ```
+
+```
  ❯ npm config list
 ; cli configs
 metrics-registry = "https://registry.npmjs.org/"
@@ -144,7 +145,8 @@ prefix = "/usr/local"    //グローバルのパス
    │                                                                │
    ╰────────────────────────────────────────────────────────────────╯
 
- ```
+```
+
  上記のようにグローバルパッケージのパスが記載されています。  
  今回はパスを通すために`delete prefix`し、`set prefix /usr/local` し直しました。  
  `get prefix`で現在のprefixを確認することもできます。  
@@ -156,3 +158,6 @@ https://www.gatsbyjs.com/#gatsby-is-fast
 
 Gatsby Starters  
 https://www.gatsbyjs.com/starters/
+
+グローバルパッケージの場所を変更する(記事)
+https://www.webprofessional.jp/beginners-guide-node-package-manager/
